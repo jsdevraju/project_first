@@ -1,0 +1,214 @@
+/* Responsive For Tablet Device Start */
+@media (max-width: 769px) {
+  /* Navbar Media Css Start  */
+  .navbar {
+    padding: 15px 20px;
+    position: relative;
+  }
+  .navbar .navigation .menu_btn {
+    display: initial;
+  }
+  #close_menu {
+    display: initial;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    padding: 30px 0 20px 20px;
+  }
+  .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -300px;
+    width: 220px;
+    height: 100vh;
+    background: #11146873;
+    backdrop-filter: blur(4.5px);
+    border: 1px solid #ffffff2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease;
+  }
+  .navigation ul.active {
+    right: 0px;
+  }
+
+  .navigation ul li {
+    padding: 20px 0 20px 20px;
+    margin-left: 0;
+  }
+  .navigation ul li a {
+    color: #fff;
+  }
+  /* Navbar Media Css End  */
+  /* Home Media Css Start  */
+  .home {
+    padding-top: 0;
+  }
+  .home p {
+    width: 90%;
+  }
+  /* Home Media Css End  */
+  /* Features Media Css Start  */
+  .features {
+    padding: 8vw 4vw 0 4vw;
+  }
+  /* Features Media Css End  */
+
+  /* Course Media Css Start  */
+  .course {
+    padding: 8vw 4vw 0 4vw;
+  }
+  /* Course Media Css End  */
+  /* Registration Media Css Start  */
+  .registration {
+    padding: 6vw 4vw 6vw 4vw;
+  }
+  .registration .reminder .time {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  /* Registration Media Css End  */
+  /* Experts Media Css Start  */
+  .experts {
+    padding: 8vw 8vw 4vw 8vw;
+    text-align: center;
+  }
+  /* Experts Media Css End  */
+
+  /* About Html Media Css Start  */
+  .about_container {
+    padding: 8vw 4vw 2vw 4vw;
+  }
+  .about_container .about_image {
+    padding-right: 30px;
+  }
+  .trusted .trusted_img img {
+    width: 50px;
+    height: auto;
+  }
+  /* About Html Media Css End  */
+
+  /* Blog Html Media Css Start  */
+  .blog_container {
+    padding: 8vw 4vw;
+  }
+  .blog_container .blogPost{
+    width: 100% !important;
+    margin-top: 30px;
+  }
+  .blog_container .blogPost img{
+    width: 100% !important;
+    height: 50vh;
+   object-fit: cover;
+  }
+  /* Blog Html Media Css End  */
+
+ /* Single Course Html Media Css Start  */
+  .course_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8vw 4vw;
+  }
+  .course_inner .overview{
+    width: 100% !important;
+  }
+  .course_inner .overview .courseImage{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .course_inner .enroll{
+    margin-top: 25px;
+  }
+ /* Single Course Html Media Css End  */
+
+  /* Contact Html Media Css Start  */
+  .contact {
+    padding: 4vw;
+    flex-direction: column;
+}
+.contact .get_touch {
+  width: 100% !important;
+  margin-bottom: 40px;
+}
+.contact .form {
+  width: 100% !important;
+}
+  /* Contact Html Media Css End  */
+
+}
+
+/* Responsive For Tablet Device End */
+
+/* Responsive For Mobile Device Start */
+@media (max-width: 499px) {
+  .registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .registration .form {
+    margin-top: 2rem;
+  }
+
+  /* About Html Media Css Start  */
+  .about_container {
+    flex-direction: column-reverse;
+  }
+  .about_container .about_image {
+    width: 100% !important;
+    padding-right: 0px;
+  }
+  .about_container .about_text {
+    width: 100% !important;
+  }
+
+  .trusted .trusted_img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .trusted .trusted_img img {
+    width: 60px !important;
+    margin: 10px 15px;
+    height: auto;
+  }
+
+  /* About Html Media Css End  */
+
+ /* Blog Html Media Css Start  */
+  .blog_container {
+      flex-direction: column;
+  }
+  .blog_container .blogs{
+      width: 100%  !important;
+  }
+  .blog_container .category{
+      width: 100% !important;
+  }
+  /* Blog Html Media Css End  */
+  /* Single Course Html Media Css Start  */
+  .course_inner .overview .course_head .c_name{
+    width: 50% !important;
+  }
+  .course_inner .overview .course_head .c_name h2{
+    font-size: 22px !important;
+  }
+
+  .course_inner .overview .course_head span{
+    font-size: 22px !important;
+  }
+  .course_inner .enroll{
+    width: 100% !important;
+  }
+  /* Single Course Html Media Css End  */
+
+}
+/* Responsive For Mobile Device End */

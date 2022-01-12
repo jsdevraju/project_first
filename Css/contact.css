@@ -1,0 +1,139 @@
+/* Course About Start */
+.contact_home{
+    background-image: linear-gradient(#0905364d, #05042eb3),
+      url("/images/back1.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contact_home h2{
+color: #fff;
+font-size: 2.2rem;
+letter-spacing: 1px;
+}
+
+.contact{
+    padding:8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contact .get_touch{
+    width: 350px;
+}
+.contact .get_touch h2{
+   color: #292c3B;
+   font-size: 30px;
+   font-weight: 800;
+   line-height: 0.8;
+   margin-bottom: 16px;
+}
+.contact .get_touch p{
+   color: #292c3B;
+   line-height: 24px;
+   margin-bottom: 33px;
+   padding-bottom: 25px;
+   border-bottom: 1px solid #e5e4ed;
+}
+.contact .get_touch h3{
+   color: #292c3B;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.contact .get_touch .get_details div{
+    display: flex;
+}
+.contact .get_touch .get_details div .get{
+    font-weight: 16px;
+    line-height: 22px;
+    color: #5838fc;
+    margin-right: 20px;
+}
+.contact .get_touch .get_details div p{
+    font-size: 14px;
+    border-bottom: none;
+    line-height:22px ;
+    margin-bottom: 15px;
+}
+.contact .get_touch .get_details .pro_links i{
+    margin-right: 8px !important;
+}
+
+.contact .form{
+    width: 60%;
+    background-color: #f7f7fa;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.contact .form h4{
+    font-size: 24px;
+    color: #2c234d;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.contact .form p{
+    color: #292c3B;
+    line-height: 24px;
+    padding-bottom: 25px;
+ }
+
+ .contact .form .form_row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+
+ .contact .form .form_row input{
+     width: 48%;
+     font-size: 14px;
+     font-weight: 400;
+     border-radius: 3px;
+     border:none;
+     outline: none;
+     background: var(--white-color);
+     padding: 20px 30px;
+     margin-bottom: 20px;
+ }
+ .contact .form .form_col input,
+ .contact .form .form_col textarea{
+     width: 100%;
+     font-size: 14px;
+     font-weight: 400;
+     border-radius: 3px;
+     border:none;
+     outline: none;
+     background: var(--white-color);
+     padding: 20px 30px;
+     margin-bottom: 20px;
+ }
+
+ .contact .form button{
+     font-size: 0.9rem;
+     padding: 13px 25px;
+     background: #5838fc;
+     border:none;
+     outline:none;
+     border:none;
+     font-weight: 600;
+     cursor: pointer;
+     color: var(--white-color);
+     border-radius: 4px;
+     transition: 0.4s ease;
+ }
+ .contact .form button:hover{
+     background: var(--primary-color);
+     color: #5838fc;
+ }
